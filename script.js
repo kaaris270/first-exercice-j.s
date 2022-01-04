@@ -38,3 +38,48 @@ else{
 }
 //else if (ageu = 30 50)
 
+
+
+let nm1 = Number(prompt('enter le numer 1'));
+let nm2 = Number(prompt('enter le num 2'));
+let operateur = prompt('choisis loperateur')
+function aditioner()
+{ 
+    if (nm1 + nm2) {
+        console.log(nm1 + nm2)
+    }
+} 
+function multiplication()
+{ 
+    if (nm1 * nm2) {
+        console.log(nm1 * nm2)
+    }
+} 
+function diviser()
+{ 
+    if (nm1 / nm2) {
+        console.log(nm1 / nm2)
+    }
+} 
+function soustraire()
+{ 
+    if (nm1 - nm2) {
+        console.log(nm1 - nm2)
+    }
+} 
+
+if (operateur == '+') {
+    aditioner();
+}
+else if (operateur == '*') {
+    multiplication();
+}
+else if (operateur == '-') {
+    soustraire();
+}
+else if (operateur == '/') {
+    diviser();
+}
+else {
+    console.log('din yemek')
+}
